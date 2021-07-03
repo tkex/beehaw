@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Box
   - BeeHiveComp
+  - Middle
+  - Top
+  - Cube
   layers:
   - Default
   - TransparentFX
