@@ -9,6 +9,9 @@ TagManager:
   - Middle
   - Top
   - Cube
+  - Cube2
+  - Cube3
+  - Cube4
   layers:
   - Default
   - TransparentFX
