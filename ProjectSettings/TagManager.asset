@@ -12,13 +12,13 @@ TagManager:
   - Cube2
   - Cube3
   - Cube4
-  - Woodpiece
   - Result
   - Stand
   - Storey
   - QueenExcluder
   - InnerCover
   - Roof
+  - Woodlog
   layers:
   - Default
   - TransparentFX
