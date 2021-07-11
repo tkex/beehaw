@@ -14,12 +14,12 @@ public abstract class StateMachineMB : MonoBehaviour
     /// another based on different kind of inputs. Each state the State Machine can transition to is handled
     /// by its own classes.
 	/// The State Machine inherits MonoBehaviour to easily implement Component-based functionality.
-
+    ///
     /// In order to implement this StateMachine, the following things are required:
-    /// Create some sort of Controller that inherits from StateMachine.
-    /// Create a few classes that inherit from State.
-    /// Implement the required functions in the new State class.
-    /// Create a few instances of the class somewhere in the new controller
+    /// Create a Controller that inherits from StateMachine.
+    /// Create the State classes that inherit from the State interface.
+    /// Implement the required functions in the new State classes.
+    /// Create the instances of the State classes in the new controller.
     /// Using ChangeState(state) the states in the controller can be changed.
     /// If the States need more information, it's possible to pass them down in the Constructor when the Controller initializes them.
     /// </summary>

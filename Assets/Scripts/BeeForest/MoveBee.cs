@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoveBee : MonoBehaviour
 {
     /// <summary>
-    /// File that moves bees along a set of Vector3 coordinates.
+    /// File that moves bees along a set of Vector3 coordinates and is acting as winning manager.
     /// </summary>
 
     #region Variables
@@ -35,22 +35,15 @@ public class MoveBee : MonoBehaviour
 
         // Start Coroutine to move along Array of positions.
         StartCoroutine(StartPath());
-
-        // Check if all bees have moved.
-        bool beesHaveMovedOut = AreAllBeesMoving();
-
-        if (beesHaveMovedOut)
-        {
-            // TODO: implement winning sound
-        }
     }
 
-    // Function that checks if all bees have moved.
-    private bool AreAllBeesMoving()
+    // Function that checks if a bee is enabled (moving).
+    private bool IsABeeMoving()
     {
+  
         foreach (MoveBee bee in _movingBees)
         {
-            if (bee.isActiveAndEnabled)
+            if (bee.enabled == true)
             {    
                 return true;
             }
@@ -58,6 +51,7 @@ public class MoveBee : MonoBehaviour
 
         return false;
     }
+
 
     // Function that passes each new position in Array to the LerpPosition IEnuumerator.
     public IEnumerator StartPath()
