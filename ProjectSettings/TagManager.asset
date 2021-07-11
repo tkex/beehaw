@@ -19,6 +19,8 @@ TagManager:
   - InnerCover
   - Roof
   - Woodlog
+  - BeeFrameUsed
+  - BeeFrameNew
   layers:
   - Default
   - TransparentFX
@@ -33,8 +35,8 @@ TagManager:
   - QueenExcluderLayer
   - InnerCoverLayer
   - RoofLayer
-  - 
-  - 
+  - BeeFrameNew
+  - BeeFrameUsed
   - 
   - 
   - 
