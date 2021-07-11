@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/BasicScene.unity
-    guid: afdcb113ffd5a4353ad88f0dd03743af
+    path: Assets/Scenes/00_BeeLobby.unity
+    guid: 2238288104416f44fbcfabe17a911800
   - enabled: 1
     path: Assets/Scenes/01_BeeApiarium.unity
     guid: 7c1667b464c592e4aad423ebd0dd5698
