@@ -29,10 +29,16 @@ public class ParticleManager : MonoBehaviour
 
     // Function for spawning a particle.
     public void SpawnParticle(GameObject particleGo, Vector3 particlePosition, Quaternion particleRotation)
-	{
+    {
         // Instantiate a new particle.
         Instantiate(particleGo, particlePosition, Quaternion.identity);
-	}
+    }
+
+    // Function for playing a particle from Particle System.
+    public void PlayParticle(ParticleSystem particleSystem)
+    {
+        particleSystem.Play();
+    }
 
     #endregion
 }

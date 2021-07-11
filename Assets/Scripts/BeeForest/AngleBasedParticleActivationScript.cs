@@ -39,7 +39,7 @@ public class AngleBasedParticleActivationScript : MonoBehaviour
         {
             // Check if the particles haven't played already and play them.
             if (!particlePlayed) {
-                 particle.Play();
+                 ParticleManager.Instance.PlayParticle(particle);
                  particlePlayed = true;
              }
         } 

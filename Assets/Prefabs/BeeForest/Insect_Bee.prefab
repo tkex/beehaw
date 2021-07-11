@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6204735863831290873
 Transform:
   m_ObjectHideFlags: 0
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 2ab9f9f50abf53046a53497a5b56e52a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -204,7 +204,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7274250734223418760}
   - component: {fileID: 2137322453}
-  - component: {fileID: 2137322454}
   - component: {fileID: 2137322456}
   - component: {fileID: 2137322457}
   m_Layer: 0
@@ -213,7 +212,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7274250734223418760
 Transform:
   m_ObjectHideFlags: 0
@@ -327,19 +326,6 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
---- !u!114 &2137322454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2397656173283263128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04697fc131642b6418acf85ba5aeb762, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trailPrefab: {fileID: 2397656173283263128}
 --- !u!114 &2137322456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -352,8 +338,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd0805de02a09a943bb74e8e7ab72989, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 0
-  fadePause: 0
 --- !u!114 &2137322457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -361,11 +345,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2397656173283263128}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a5c1e5106f9ca048ac5dcc87017f487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  positions:
+  - {x: -4, y: 0.619, z: 0.76}
+  - {x: -2, y: 0.619, z: 0.5}
+  - {x: -3.622, y: 0.619, z: 1.467}
+  - {x: -1.856, y: 0.5, z: 1.298}
+  - {x: -1.702, y: -0.86846393, z: -0.59}
 --- !u!1 &7830429247709298058
 GameObject:
   m_ObjectHideFlags: 0
