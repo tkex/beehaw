@@ -740,7 +740,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 134897069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c3c409cbe060df4b822c097964201f7, type: 3}
+  m_Script: {fileID: 11500000, guid: 7c6213ae0eb79944ab12307ff01122f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &134897071
@@ -1245,10 +1245,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 230379488}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e865bc8d94e6604397056c67fa5e75d, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e2df02eff56cd14983934d24e2a097f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countEnteredSocket: 0
+  hasEnteredSocket: 0
 --- !u!1001 &234855061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1475,10 +1475,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 270852239}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e865bc8d94e6604397056c67fa5e75d, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e2df02eff56cd14983934d24e2a097f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countEnteredSocket: 0
+  hasEnteredSocket: 0
 --- !u!1001 &285628040
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2307,10 +2307,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 484602956}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fec010e8f7c418b498018a3cb8e367f6, type: 3}
+  m_Script: {fileID: 11500000, guid: 5624098e55bf50a4f9d62ee4195e791a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WinningSoundSource: {fileID: 2102648881}
+  _axeSoundSource: {fileID: 0}
+  _winningSoundSource: {fileID: 2102648881}
 --- !u!1001 &491051873
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3432,10 +3433,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 613789739}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e865bc8d94e6604397056c67fa5e75d, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e2df02eff56cd14983934d24e2a097f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countEnteredSocket: 0
+  hasEnteredSocket: 0
 --- !u!4 &642524110 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8129202363531742456, guid: 817bd8be67c06204491f61fc15b3a5bf, type: 3}
@@ -3837,6 +3838,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5052774957996630197, guid: 7c24b7bf3bf1def48a393c3bbfb31a27, type: 3}
   m_PrefabInstance: {fileID: 686963433}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &686963435 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5572290437488622095, guid: 7c24b7bf3bf1def48a393c3bbfb31a27, type: 3}
+  m_PrefabInstance: {fileID: 686963433}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &686963436
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686963435}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010000001, y: 0.010156918, z: 0.005024995}
+  m_Center: {x: 0.00000036507376, y: -0.00007844437, z: 0.0035837246}
 --- !u!1001 &718036304
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5724,10 +5743,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 935843170}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e865bc8d94e6604397056c67fa5e75d, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e2df02eff56cd14983934d24e2a097f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countEnteredSocket: 0
+  hasEnteredSocket: 0
 --- !u!1 &935968559
 GameObject:
   m_ObjectHideFlags: 0
@@ -7380,10 +7399,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1299036401}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e865bc8d94e6604397056c67fa5e75d, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e2df02eff56cd14983934d24e2a097f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countEnteredSocket: 0
+  hasEnteredSocket: 0
 --- !u!1001 &1307694153
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9287,7 +9306,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1574878410
 Transform:
   m_ObjectHideFlags: 0
@@ -9311,9 +9330,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1574878409}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0970dfbe1b22024089710eebd076030, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c5e1259542d98742a4c269c04c5e53f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _lobbyIndexValue: 0
+  _secondsForExit: 7
 --- !u!1001 &1580224085
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11801,10 +11822,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2045872302}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e865bc8d94e6604397056c67fa5e75d, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e2df02eff56cd14983934d24e2a097f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countEnteredSocket: 0
+  hasEnteredSocket: 0
 --- !u!1001 &2076105689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11908,15 +11929,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 2102648878}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4ee210debd1193429d623a56940f900, type: 3}
+  m_Script: {fileID: 11500000, guid: 09b69df1f46a6444f8602439f928dd2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  go: {fileID: 2104831201}
-  shiningPrefab: {fileID: 100000, guid: 989095528b753aa49ad9de180a4267a2, type: 3}
-  positionShining: {x: -4, y: -0.2, z: 4}
-  myParticleEffect: {fileID: 1052326988759172, guid: 633191961f9a8314697e96499a6b3a35, type: 3}
-  myParticlePosition: {x: -0.2, y: 1, z: 4.5}
-  myWinningSound: {fileID: 8300000, guid: 3e31565cd517e5241aa36a29d7645b83, type: 3}
+  _socketGo: {fileID: 2104831201}
+  _particleGo: {fileID: 1052326988759172, guid: 633191961f9a8314697e96499a6b3a35, type: 3}
+  _particlePosition: {x: -0.5, y: 0.5, z: 4.3}
+  _shiningGo: {fileID: 100000, guid: 989095528b753aa49ad9de180a4267a2, type: 3}
+  _shiningPosition: {x: -0.2, y: 1, z: 4.5}
+  myWinningSound: {fileID: 8300000, guid: a353ed67aecf48d419bc365949343c83, type: 3}
 --- !u!82 &2102648881
 AudioSource:
   m_ObjectHideFlags: 0
