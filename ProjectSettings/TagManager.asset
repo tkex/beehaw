@@ -5,7 +5,22 @@ TagManager:
   serializedVersion: 2
   tags:
   - Box
-  - Trail
+  - BeeHiveComp
+  - Middle
+  - Top
+  - Cube
+  - Cube2
+  - Cube3
+  - Cube4
+  - Result
+  - Stand
+  - Storey
+  - QueenExcluder
+  - InnerCover
+  - Roof
+  - Woodlog
+  - BeeFrameUsed
+  - BeeFrameNew
   layers:
   - Default
   - TransparentFX
@@ -13,15 +28,15 @@ TagManager:
   - 
   - Water
   - UI
-  - Arm
-  - Raycasts
-  - "Gr\xFCn"
-  - Blau
-  - Rot
-  - Gelb
-  - 
-  - 
-  - 
+  - ArmLayer
+  - RaycastsLayer
+  - StandLayer
+  - StoreyLayer
+  - QueenExcluderLayer
+  - InnerCoverLayer
+  - RoofLayer
+  - BeeFrameNew
+  - BeeFrameUsed
   - 
   - 
   - 
