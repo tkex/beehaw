@@ -390,14 +390,14 @@ MonoBehaviour:
 
 
 
-    Not only old Deep Frame from old Hive Bodies can
-    attract bees and populate your new beehive!
+    Not only old deep frames from old and used beehives
+    can attract bees and populate your new beehive!
 
 
 
-    There are several other substances
-    as well, that bees like! Putting them inside or near your beehive will help you
-    getting new friends as well!'
+    There are several other
+    substances as well, that bees like! Putting them inside or near your beehive
+    will help you getting new friends as well!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -17286,11 +17286,12 @@ MonoBehaviour:
 
     One of the easiest methods
     is assembling the inners of your storeys in a 50/50 ratio with old and new frames!
+    In an alternating order works the best!
 
 
 
-    The
-    old frames contain scents that will attract new bees!'
+    The old frames contain scents
+    that will attract new bees!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
