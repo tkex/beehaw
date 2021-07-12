@@ -11,15 +11,15 @@ public class AngleBasedParticleActivationScript : MonoBehaviour
     [Header("Position Configuration")]
 
     [Tooltip("Set Particle System.")]
-    [SerializeField] private ParticleSystem particle;
+    [SerializeField] private ParticleSystem _particle;
 
     [Tooltip("Minimum angle at which the Particle System will be played.")]
-    [SerializeField] private float minAngle;
+    [SerializeField] private float _minAngle;
 
     [Tooltip("Maximum angle at which the Particle System will be played.")]
-    [SerializeField] private float maxAngle;
+    [SerializeField] private float _maxAngle;
 
-    private bool particlePlayed = false;
+    private bool _particlePlayed = false;
 
     #endregion
 
@@ -28,26 +28,26 @@ public class AngleBasedParticleActivationScript : MonoBehaviour
     void Start()
     {
         // Calculations for angles to represent the same as Rotation value.
-        minAngle = Mathf.Repeat(minAngle + 180, 360) - 180;
-        maxAngle = Mathf.Repeat(maxAngle + 180, 360) - 180;
+        _minAngle = Mathf.Repeat(_minAngle + 180, 360) - 180;
+        _maxAngle = Mathf.Repeat(_maxAngle + 180, 360) - 180;
     }
 
     void Update()
     {
         // Angles at which the Particle System will be played.
-        if (transform.rotation.eulerAngles.x > minAngle && transform.rotation.eulerAngles.x < maxAngle)
+        if (transform.rotation.eulerAngles.x > _minAngle && transform.rotation.eulerAngles.x < _maxAngle)
         {
             // Check if the particles haven't played already and play them.
-            if (!particlePlayed) {
-                 ParticleManager.Instance.PlayParticle(particle);
-                 particlePlayed = true;
+            if (!_particlePlayed) {
+                 ParticleManager.Instance.PlayParticle(_particle);
+                 _particlePlayed = true;
              }
         } 
         else 
         {
             // If angle has exceeded the given values, stop particles.
-            particle.Stop();
-            particlePlayed = false;
+            _particle.Stop();
+            _particlePlayed = false;
         }
     }
 
