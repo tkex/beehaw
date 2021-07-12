@@ -94,7 +94,7 @@ namespace Flowers.State
             foreach (GameObject go in currentCollisions)
             {
                 // Change State to "Unseeded State" once Collision with Trowel has occured and current State is "Wthered".
-                if (currentState == WitheredState && go.name == "Trowel")
+                if (currentState == WitheredState && go.name == "Shovel")
                 {
                     ChangeState(UnseededState);
                 }
