@@ -16804,7 +16804,7 @@ MonoBehaviour:
   _particlePosition: {x: -0.5, y: 0.5, z: 4.3}
   _shiningGo: {fileID: 100000, guid: 989095528b753aa49ad9de180a4267a2, type: 3}
   _shiningPosition: {x: -0.2, y: 1, z: 4.5}
-  _myWinningSound: {fileID: 0}
+  _myWinningSound: {fileID: 8300000, guid: a353ed67aecf48d419bc365949343c83, type: 3}
 --- !u!82 &2102648881
 AudioSource:
   m_ObjectHideFlags: 0
