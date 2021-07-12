@@ -118,7 +118,6 @@ public class BeeWinningManager : MonoBehaviour
         // Check if all bees are already active.
         if(!_areAllBeesActive)
         {
-            Debug.Log("WORKS TIL HERE.");
             // Check if before counted child elements are equal to the
             // amount of gameobjects that have the MoveBee script enabled.
             if (_amountOfChildrenBees == _amountOfActiveBees)

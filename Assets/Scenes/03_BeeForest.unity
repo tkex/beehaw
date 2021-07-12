@@ -12201,9 +12201,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f55bbb7f28713440a7ec631ad11a044, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particle: {fileID: 1758227491}
-  minAngle: 40
-  maxAngle: 170
+  _particle: {fileID: 1758227491}
+  _minAngle: 40
+  _maxAngle: 170
 --- !u!135 &1190392457
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -16143,9 +16143,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f55bbb7f28713440a7ec631ad11a044, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particle: {fileID: 460728007}
-  minAngle: 45
-  maxAngle: 170
+  _particle: {fileID: 460728007}
+  _minAngle: 40
+  _maxAngle: 170
 --- !u!114 &1894743306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17110,9 +17110,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f55bbb7f28713440a7ec631ad11a044, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particle: {fileID: 907920673}
-  minAngle: 40
-  maxAngle: 170
+  _particle: {fileID: 907920673}
+  _minAngle: 40
+  _maxAngle: 170
 --- !u!114 &1336007760701931145
 MonoBehaviour:
   m_ObjectHideFlags: 0
