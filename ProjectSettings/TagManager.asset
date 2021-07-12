@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Box
+  - BeeHiveComp
+  - Middle
+  - Top
+  - Cube
+  - Cube2
+  - Cube3
+  - Cube4
+  - Result
+  - Stand
+  - Storey
+  - QueenExcluder
+  - InnerCover
+  - Roof
+  - Woodlog
+  - BeeFrameUsed
+  - BeeFrameNew
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - ArmLayer
+  - RaycastsLayer
+  - StandLayer
+  - StoreyLayer
+  - QueenExcluderLayer
+  - InnerCoverLayer
+  - RoofLayer
+  - BeeFrameNew
+  - BeeFrameUsed
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

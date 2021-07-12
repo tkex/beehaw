@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/00_BeeLobby.unity
+    guid: 2238288104416f44fbcfabe17a911800
+  - enabled: 1
+    path: Assets/Scenes/01_BeeApiarium.unity
+    guid: 7c1667b464c592e4aad423ebd0dd5698
+  - enabled: 1
+    path: Assets/Scenes/02_BeeFrames.unity
+    guid: 2a1559bf2c26fca48a1d64084271dfd8
+  - enabled: 1
+    path: Assets/Scenes/03_BeeForest.unity
+    guid: e7a50f2b14a1c50419e377cc31c4c1b0
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8fccb80e6c9a84389a75f2c1ed4d786d, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d3134b6f939114be9b8d6dbeff42d453, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 2b485d7676a7d4b3eba3a764bd60d013, type: 2}
