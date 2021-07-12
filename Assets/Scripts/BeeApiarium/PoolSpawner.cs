@@ -33,8 +33,8 @@ public class PoolSpawner : MonoBehaviour
     // Delay for gameobject spawning.
     [Header("Timer Settings")]
     [Tooltip("Set interval delay for spawning group of GameObjects from the pool.")]
-    [SerializeField] private float delay = 22.0f;
-    private float lastTime;
+    [SerializeField] private float _delay = 22.0f;
+    private float _lastTime;
 
     #endregion
 
@@ -43,7 +43,7 @@ public class PoolSpawner : MonoBehaviour
     void FixedUpdate ()
     {
         // Check if passed time is greater than set delay value.
-        if(Time.time - lastTime > delay)
+        if(Time.time - _lastTime > _delay)
         {
             // Set ObjectPool instances that will be (timely) spawned in the scene via defined tags.
             // The spawn pool is configured in the ObjectPool gameobject in Unity.
@@ -58,7 +58,7 @@ public class PoolSpawner : MonoBehaviour
             ObjectPool.Instance.SpawnGoFromPool("InnerCover", _innerCoverSpawnPosition, Quaternion.identity);
 
             // Set Time to lastTime variable for timecritical execution.
-            lastTime = Time.time;
+            _lastTime = Time.time;
         }
     }
 

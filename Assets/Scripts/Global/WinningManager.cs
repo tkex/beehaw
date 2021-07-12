@@ -32,7 +32,7 @@ public class WinningManager : MonoBehaviour
     
     [Header("Audio Settings")]
     [Tooltip("Set audio clip that will be played when winning the game.")]
-    [SerializeField] private AudioClip myWinningSound;
+    [SerializeField] private AudioClip _myWinningSound;
 
     /// Variable for holding the value of socket children of a parent sockt interaction gameobject.
     private int _amountOfChilds;
@@ -118,7 +118,7 @@ public class WinningManager : MonoBehaviour
         ParticleManager.Instance.SpawnParticle(_particleGo, _particlePosition, Quaternion.identity);
 
         // Play winning Sound
-        AudioManager.Instance.PlayWinningSound(myWinningSound);
+        AudioManager.Instance.PlayWinningSound(_myWinningSound);
 
         // Countdown from 10 Sec to quit scene and back2lobby
         ExitGame.Instance.ExitScene();

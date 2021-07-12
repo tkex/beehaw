@@ -38,7 +38,7 @@ public class ObjectPool : MonoBehaviour
     #endregion
 
     // Dictionary for storing a queue (that will contain the pool GameObjects).
-    private Dictionary<string, Queue<GameObject>> poolDictionary;
+    private Dictionary<string, Queue<GameObject>> _poolDictionary;
 
     // List for storing the pools.
     public List<Pool> poolsList;
@@ -64,7 +64,7 @@ public class ObjectPool : MonoBehaviour
     void Start()
     { 
         // Create new dictionary in poolDictionary
-        poolDictionary = new Dictionary<string, Queue<GameObject>>();
+        _poolDictionary = new Dictionary<string, Queue<GameObject>>();
 
         // Go through the pools in the list.
         foreach(Pool pool in poolsList)
@@ -86,7 +86,7 @@ public class ObjectPool : MonoBehaviour
             }
 
             // Once each pool is filled with their respective gameobjects, add (respective) pool to the dictionary for storing it.
-            poolDictionary.Add(pool.poolTag, objectPoolQueue);
+            _poolDictionary.Add(pool.poolTag, objectPoolQueue);
         }
     }
 
@@ -94,7 +94,7 @@ public class ObjectPool : MonoBehaviour
     public GameObject SpawnGoFromPool (string tag, Vector3 position, Quaternion rotation)
     {
         // Get the spawning GameObject from poolDictionary pool queue (always front element).
-        GameObject spawningGo = poolDictionary[tag].Dequeue();
+        GameObject spawningGo = _poolDictionary[tag].Dequeue();
 
         // Set spawning GameObject active (enable in scene).
         spawningGo.SetActive(true);
@@ -106,7 +106,7 @@ public class ObjectPool : MonoBehaviour
         spawningGo.transform.rotation = rotation;
 
         // Set spawning GameObject back into the queue (always back element).
-        //poolDictionary[tag].Enqueue(spawningGo);
+        //_poolDictionary[tag].Enqueue(spawningGo);
 
         // Return spawning GameObject.
         return spawningGo;
@@ -119,7 +119,7 @@ public class ObjectPool : MonoBehaviour
         despawnGo.SetActive(false);
 
         // Put GameObject back into the queue again.
-        poolDictionary[tag].Enqueue(despawnGo);
+        _poolDictionary[tag].Enqueue(despawnGo);
 
         //Debug.Log(go +  "is deactivated.");
     }
