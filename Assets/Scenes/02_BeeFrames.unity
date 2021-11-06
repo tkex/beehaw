@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6892266, g: 0.29043823, b: 0.14056069, a: 1}
+  m_IndirectSpecularColor: {r: 0.6918458, g: 0.28275156, b: 0.1380949, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1453,7 +1453,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1797101715793910, guid: 6443619c909de9841a04d850a03b2eac, type: 3}
       propertyPath: m_Name
-      value: Leaves_dark
+      value: LemonGrass
       objectReference: {fileID: 0}
     - target: {fileID: 1797101715793910, guid: 6443619c909de9841a04d850a03b2eac, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5246,7 +5246,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1419138617290156, guid: e1b9dc5e6ce6d90409cc0a87af2c55c8, type: 3}
       propertyPath: m_Name
-      value: PlantPot_10
+      value: Pot_03
       objectReference: {fileID: 0}
     - target: {fileID: 1419138617290156, guid: e1b9dc5e6ce6d90409cc0a87af2c55c8, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7200,7 +7200,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1428915875096238, guid: 496056dbbf4da7a4b8217232df85f584, type: 3}
       propertyPath: m_Name
-      value: SchizostylisCoccinea_DarkPink
+      value: Geranium
       objectReference: {fileID: 0}
     - target: {fileID: 1428915875096238, guid: 496056dbbf4da7a4b8217232df85f584, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8682,7 +8682,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1116797984631938, guid: e6a287ebde559db4bbb1d36c510042b9, type: 3}
       propertyPath: m_Name
-      value: PlantPot_28
+      value: Pot_01
       objectReference: {fileID: 0}
     - target: {fileID: 1116797984631938, guid: e6a287ebde559db4bbb1d36c510042b9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11537,7 +11537,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1991667307809312, guid: 49d7b9cd24c50144898cc9fa95a56f5e, type: 3}
       propertyPath: m_Name
-      value: PlantPot_42
+      value: Pot_02
       objectReference: {fileID: 0}
     - target: {fileID: 1991667307809312, guid: 49d7b9cd24c50144898cc9fa95a56f5e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15900,7 +15900,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1217465889237604, guid: aee59f31145efab418a59efa08512515, type: 3}
       propertyPath: m_Name
-      value: UnknownFlowerName01_White
+      value: Aster
       objectReference: {fileID: 0}
     - target: {fileID: 1217465889237604, guid: aee59f31145efab418a59efa08512515, type: 3}
       propertyPath: m_StaticEditorFlags
